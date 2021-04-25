@@ -2625,12 +2625,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .feature-area .single-feature .title .lnr {
   color: #fff;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 64px;
   padding: 30px;
   display: inline-block;
   margin-bottom: 40px;
   background-image: none;
-  background-color: #1f1f1f;
 }
 .feature-area .single-feature p {
   margin-bottom: 0px;
