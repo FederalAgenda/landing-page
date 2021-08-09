@@ -926,15 +926,13 @@ th {
   font-size: 44px;
   padding-right: 20px;
   /* color: #eeeeee; */
-  color: #1f1f1f;
+  color: white;
   margin-top: -8px;
 }
 .buttons:hover {
   cursor: pointer;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-  background-color: #4caf50;
-  color: #fff !important;
-  border: 1px solid transparent;
+  background-color: #3b883e;
 }
 .buttons:hover a {
   color: #fff;
@@ -943,7 +941,7 @@ th {
   color: #fff;
 }
 .buttons a {
-  color: #000;
+  color: #fff;
 }
 .buttons p {
   margin-bottom: 8px !important;
@@ -2364,7 +2362,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-banner-area {
-  background: url(../img/home-banner-bg-dark.png) center;
   background-size: cover;
 }
 .home-banner-area .banner-img {
@@ -2390,7 +2387,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 991px) {
   .home-banner-area .fullscreen {
-    height: 700px !important;
+
   }
 }
 
@@ -2491,11 +2488,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+#mobile-2-img-mobile {
+  display: none;
+}
+
 .home-about-left img {
   width: 100%;
 }
 @media (max-width: 991px) {
+  .home-about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .home-about-left img {
+    max-width: 80%;
+  }
+
+  #mobile-2-img-mobile {
+    display: flex;
+  }
+
+  #mobile-2-img-desktop {
     display: none;
   }
 }
@@ -2555,57 +2570,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .feature-area {
   position: relative;
 }
-.feature-area:after {
-  content: "";
-  position: absolute;
-  right: 16%;
-  bottom: -100px;
-  z-index: -1;
-  width: 340px;
-  height: 340px;
-  background: linear-gradient(
-    to bottom right,
-    transparent 0%,
-    transparent 50%,
-    #4caf50 50%,
-    #3fa14c 100%
-  );
-  background: -webkit-linear-gradient(
-    to bottom right,
-    transparent 0%,
-    transparent 50%,
-    #4caf50 50%,
-    #3fa14c 100%
-  );
-  background: -moz-linear-gradient(
-    to bottom right,
-    transparent 0%,
-    transparent 50%,
-    #4caf50 50%,
-    #3fa14c 100%
-  );
-  background: -ms-linear-gradient(
-    to bottom right,
-    transparent 0%,
-    transparent 50%,
-    #4caf50 50%,
-    #3fa14c 100%
-  );
-  background: -o-linear-gradient(
-    to bottom right,
-    transparent 0%,
-    transparent 50%,
-    #4caf50 50%,
-    #3fa14c 100%
-  );
-}
-@media (max-width: 991px) {
-  .feature-area:after {
-    display: none;
-  }
-}
+
+
 .feature-area .single-feature {
-  background: #50a94f;
+  background: #3fa14c;
   padding: 40px 30px;
   text-align: center;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);

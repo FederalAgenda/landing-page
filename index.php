@@ -49,13 +49,12 @@
       <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
-            <a href="index.html"><img src="img/logo-white.png" alt="" title="" /></a>
+            <a href="index.php"><img src="img/logo-white.png" alt="" title="" /></a>
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li class="menu-active"><a href="#home">Home</a></li>
               <li><a href="#about">Sobre</a></li>
-
+              <li><a href="admin.php">Para Coordenadores e Grêmios</a></li>
               <li><a href="#contact">Contato</a></li>
             </ul>
           </nav>
@@ -73,10 +72,10 @@
               Federal Agenda
             </h1>
             <p id="banner-description">
-              O aplicativo perfeito para saber o que acontece no seu campus. Eventos, Atividades, Provas, Trabalhos, tudo.
+              O aplicativo perfeito para saber o que acontece no seu campus. Eventos, Atividades, Provas, Trabalhos, Notícias, tudo.
             </p>
             <div class="download-button d-flex flex-row justify-content-start">
-              <div class="buttons flex-row d-flex">
+              <div class="buttons download-button-inner flex-row d-flex">
                 <i class="fa fa-android" aria-hidden="true"></i>
                 <div class="desc">
                   <a href="https://bit.ly/3gCIVel">
@@ -88,7 +87,7 @@
                 </div>
               </div>
 
-              <div class="buttons flex-row d-flex">
+              <div class="buttons download-button-inner flex-row d-flex">
                 <i class="fa fa-globe" aria-hidden="true"></i>
                 <div class="desc">
                   <a href="https://bit.ly/3vhVzDF">
@@ -111,10 +110,10 @@
     <section id="about" class="about-area">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 home-about-left">
+          <div class="col-lg-4 home-about-left">
             <img class="img-fluid" src="img/mobile-1.png" alt="" />
           </div>
-          <div class="offset-lg-1 col-lg-5 home-about-right">
+          <div class="offset-lg-1 col-lg-7 home-about-right">
             <h1>
               Todas as Atividades
               Organizadas no seu bolso
@@ -130,7 +129,12 @@
             <a class="primary-btn text-uppercase" href="index.html#">Get Details</a>
             -->
           </div>
-          <div class="col-lg-6 home-about-right home-about-right2">
+
+          <div class="col-lg-4 home-about-left" id="mobile-2-img-mobile">
+            <img class="img-fluid" src="img/mobile-2.png" alt="" />
+          </div>
+
+          <div class="offset-lg-1 col-lg-7 home-about-right home-about-right2">
             <h1>
               Descubra o seu Campus
             </h1>
@@ -140,36 +144,29 @@
               no seu campus. O Federal Agenda busca centralizar e divulgar todas as oportunidades de
               crescimento para os estudantes.
             </p>
-            <!--
-            <div class="download-button d-flex flex-row justify-content-start">
-              <div class="buttons flex-row d-flex">
-                <i class="fa fa-apple" aria-hidden="true"></i>
-                <div class="desc">
-                  <a href="index.html#">
-                    <p>
-                      <span>Available</span> <br />
-                      on App Store
-                    </p>
-                  </a>
-                </div>
-              </div>
-              <div class="buttons dark flex-row d-flex">
-                <i class="fa fa-android" aria-hidden="true"></i>
-                <div class="desc">
-                  <a href="index.html#">
-                    <p>
-                      <span>Available</span> <br />
-                      on Play Store
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          -->
           </div>
-          <div class="col-lg-5 home-about-left">
+
+          <div class="col-lg-4 home-about-left" id="mobile-2-img-desktop">
             <img class="img-fluid" src="img/mobile-2.png" alt="" />
           </div>
+
+          <div class="row align-items-center">
+            <div class="col-lg-4 home-about-left">
+              <img class="img-fluid" src="img/mobile-3.png" alt="" />
+            </div>
+            <div class="offset-lg-1 col-lg-7 home-about-right">
+              <h1>
+                Todas as Notícias
+                Disponíveis para Você
+              </h1>
+              <p>
+                Veja o que há de novo acontecendo no seu Instituto Federal. Oportunidades,
+                conquistas, avisos, tudo o que estiver acontecendo.
+              </p>
+              <!--
+              <a class="primary-btn text-uppercase" href="index.html#">Get Details</a>
+              -->
+            </div>         
         </div>
       </div>
     </section>
@@ -239,7 +236,7 @@
             <div class="section-title text-center">
               <h2>Contato</h2>
               <p>
-                É reitor, coordenador ou até mesmo um aluno e se interessou? Mande um email para nós.
+                É reitor, coordenador, grêmio estudantil e se interessou e quer o aplicativo disponível no seu campus gratuitamente? <a href="admin.php">Veja as nossas vantagens</a> e mande um email para nós.
               </p>
             </div>
           </div>
