@@ -65,7 +65,7 @@
     <section id="home" class="home-banner-area">
       <div class="container">
         <div class="row fullscreen d-flex align-items-center justify-content-between">
-            <div class="col-lg-6 col-md-6">
+            <div class="banner-img col-lg-6 col-md-6">
                 <img class="img-fluid img-desk" src="img/desk-1.png" alt="" />
               </div>
           <div class="home-banner-content col-lg-6 col-md-6">
