@@ -43,3 +43,8 @@ p {
   width: 90%;
   max-width: 1280px;
 }
+
+#home .container {
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
